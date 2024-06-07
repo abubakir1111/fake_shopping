@@ -1,0 +1,171 @@
+    *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    }
+    .home{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0 70px;
+        
+    }
+    .container{
+        padding: 150px 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: auto;
+        height: auto;
+        flex-wrap: wrap;
+        gap: 20px;
+        background: blue;
+    }
+    .card{
+        width: 350px;
+        height: 400px;
+        background: white;
+        border-radius: 15px;
+        margin-left: 5px;
+    }
+    .home_card_img{
+        width: auto;
+        height: 350px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    .home2{
+        border-radius: 15px;
+        width: 360px;
+        height: 600px;
+        background: rgba(209, 209, 209, 0.611);
+        transition: 0.2s linear;
+    }
+    .home2:hover{
+        box-shadow: 0 0 5px 1px black;
+    }
+     .card_narxlari1{
+        width: auto;
+        padding: 2px 0;
+        border-radius: 4px;
+        margin:0 auto;
+
+        color: rebeccapurple;
+        font-weight: 600;
+        margin-top: -25px;
+        margin-left: 1px    ;
+        background: pink;
+        text-align: center;
+
+    }
+    .card_narxlari2{
+        width: 130px;
+        height: 23px;
+        padding: 2px 0;
+        border-radius: 4px;
+
+        color: white;
+        font-weight: 400;
+        margin-top: -25px;
+        margin-left: 140px;
+        background: rgb(126, 11, 241);
+        text-align: center;
+
+    }
+    .malumot{
+        width: 335px;
+        font-weight: 400;
+        padding-left: 10px;
+        padding-top: 5px;
+        color: rgba(0, 0, 0, 0.527);
+    }
+    .shar_star{
+        width: 24px;
+        height: 24px;
+        background: url(../img/icons_24.png);
+        background-position: center center;
+        background-repeat: no-repeat;
+        color: gray;
+    }
+
+    .shar_center{
+        width: 100%;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        padding: 30px 0;
+        color: rgba(0, 0, 0, 0.479);
+        font-weight: 400;
+    }
+    .sharh_uzum{
+        margin-left: 10px;
+    }
+    .sharh_uzum1{
+        margin-left: 10px;
+    }
+    .sharh_narx{
+        background: yellow;
+        width: 130px;
+        height: 23px;
+        text-align: center;
+        border-radius: 4px;
+        padding: 3px 0;
+        color: rgba(0, 0, 0, 0.801);
+        font-weight: 400;
+        margin-left: 5px;
+    }
+    .border_som{
+        border: 0.1px solid rgba(0, 0, 0, 0.404);
+        margin-top: -10px;
+        width: 87px;
+        margin-left: 5px;
+        text-align: center;
+    }
+    .som35{
+        margin-top: 10px;
+        margin-left: 5px;
+    }
+    .space_betwen{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 5px;
+    }
+    .bag_png{
+        background: transparent;
+        border: none;
+        background-image: url(../img/icons8-bag-40.png);
+        width: 40px;
+        height: 40px;
+    }
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+}
+
+.navbar ul {
+    list-style-type: none;
+}
+
+.navbar ul li {
+    float:left;
+    transition: 0.5s linear 1s;
+}
+
+.navbar ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar ul li a:hover {
+    border-bottom: 1px solid red;
+}
